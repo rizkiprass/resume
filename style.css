@@ -24,7 +24,7 @@ html,body{
 
 /* Header */
 header{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
-.avatar{width:88px;height:88px;border-radius:50%;background:linear-gradient(135deg,#93c5fd,#bfdbfe);display:flex;align-items:center;justify-content:center;font-weight:700;color:#1e3a8a}
+.avatar{width:150px;height:180px;border-radius:0;object-fit:cover;border:3px solid #e2e8f0}
 .title{flex:1}
 h1{font-size:32px;line-height:1.15;margin:0 0 6px 0}
 .role{font-size:16px;color:var(--muted);margin:0}
