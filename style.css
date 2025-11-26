@@ -63,6 +63,15 @@ section{margin-bottom:22px}
 .item ul{margin:8px 0 0 18px;padding:0}
 .item li{margin:6px 0}
 
+/* Job list items spacing */
+.job ul li, .project ul li {
+  margin-bottom: 8px;
+}
+
+.job ul li:last-child, .project ul li:last-child {
+  margin-bottom: 0;
+}
+
 /* Pills */
 .pills{display:flex;flex-wrap:wrap;gap:8px}
 .pill{border:1px solid var(--light);padding:6px 10px;border-radius:999px;font-size:13px}
