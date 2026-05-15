@@ -43,7 +43,7 @@
           <h2>Professional Summary</h2>
           <p>Cloud Infrastructure Engineer with 5+ years of experience specializing in large-scale migrations and
             multi-cloud environments (AWS, Huawei Cloud). Proven track record of <strong>migrating 50+ servers</strong>
-            with near-zero downtime and <strong>reducing infrastructure provisioning time by 98%</strong> through
+            with reduce downtime and <strong>reducing infrastructure provisioning time by 98%</strong> through
             Terraform automation.</p>
           <p>Expert in designing secure, cost-optimized architectures that <strong>reduced cloud spend by ~30%</strong>
             while ensuring governance across <strong>50+ accounts</strong>.</p>
@@ -63,17 +63,20 @@
             </div>
             <ul>
               <li><strong>Enterprise Architecture & Governance:</strong> Design high-availability cloud architectures,
-                overseeing governance across <strong>50+ AWS accounts</strong> and implementing centralized Landing
+                overseeing governance and implementing centralized Landing
                 Zones for multi-account management.</li>
+              <li><strong>Migration Design & Strategy:</strong> Created low-level design scenarios and flow processes
+                for migrations, focusing on <strong>minimizing downtime</strong> and ensuring data integrity.</li>
               <li><strong>Security Strategy:</strong> Hardened security posture by deploying Service Control Policies
                 (SCP) and centralized traffic inspection, successfully mitigating active threats (e.g.,
                 MaliciousIPCaller, SSH brute-force).</li>
               <li><strong>Cost Optimization:</strong> Developed and enforced specific cost-saving strategies (Savings
-                Plans, Rightsizing) resulting in a <strong>20–30% reduction in monthly cloud spend</strong> and the
-                removal of 50+ underutilized resources.</li>
-              <li><strong>Resiliency Design:</strong> Architected cross-region and on-premise-to-cloud Disaster Recovery
-                (DR) solutions, ensuring <strong>RTO < 30 minutes</strong> and <strong>RPO < 5 minutes</strong> for
-                        critical workloads.</li>
+                Plans, Rightsizing) resulting in a <strong>20–30% reduction in monthly cloud spend</strong>.</li>
+              <li><strong>Project Leadership:</strong> Led requirement gathering for infrastructure provisioning and
+                proactively identified and resolved critical issues during the project lifecycle.</li>
+              <li><strong>Disaster Recovery:</strong> Designed and implemented DR strategies covering Cross-AZ,
+                Cross-Region, and Hybrid environments, aligning recovery designs with client RTO/RPO targets to ensure
+                business continuity.</li>
             </ul>
           </div>
 
@@ -84,17 +87,18 @@
               <span class="period">Aug 2021 - Feb 2025</span>
             </div>
             <ul>
-              <li><strong>Large-Scale Migration:</strong> Led the end-to-end migration of <strong>200+ servers</strong>
-                from on-premise to Cloud, optimizing cutover strategies to achieve a <strong>
-                  < 5-minute maintenance window</strong>.</li>
+              <li><strong>Critical Systems Migration:</strong> executed the cross-region migration of <strong>70+
+                  critical SAP applications</strong> for one of Indonesia's largest hospitals, and migrated <strong>50+ critical SAP servers</strong> for one of Indonesia's largest retail telecommunications companies.</li>
+              <li><strong>Infrastructure Security:</strong> Implemented centralized inspection infrastructure on AWS for
+                Palo Alto VMs, enhancing security compliance for healthcare clients.</li>
+              <li><strong>Cross-Cloud Migration:</strong> Successfully migrated a public sector news portal and radio
+                streaming service from AWS to Huawei Cloud.</li>
+              <li><strong>On-Premise to Cloud:</strong> Migrated <strong>50+ servers</strong> from on-premise to Huawei
+                Cloud for one of the largest mining companies.</li>
               <li><strong>Infrastructure Automation:</strong> Revolutionized provisioning workflows using Terraform,
                 reducing environment deployment time from <strong>2 days to ~45 minutes</strong> (98% improvement).</li>
-              <li><strong>Standardization:</strong> Enforced strict Infrastructure as Code (IaC) practices, achieving
-                <strong>100% naming convention consistency</strong> and eliminating configuration drift across Dev,
-                Staging, and Production.
-              </li>
-              <li><strong>Network Engineering:</strong> Managed complex connectivity including Transit Gateways and VPN
-                Site-to-Site, resolving critical inter-VPC and hybrid network issues.</li>
+              <li><strong>Team Collaboration:</strong> Actively participated in daily project sync-ups, ensuring
+                transparent reporting of issues and fostering collaborative problem-solving.</li>
             </ul>
           </div>
         </section>
@@ -107,12 +111,9 @@
             <h3>Multi-Cloud & On Premise to Cloud Migration</h3>
             <p><strong>Technologies:</strong> AWS, Huawei Cloud, Alibaba Cloud, Terraform</p>
             <ul>
-              <li>Orchestrated complex cross-cloud migrations (Alibaba to AWS, AWS to Huawei Cloud) for microservices
-                workloads.</li>
-              <li>Migrated 30+ servers from on-premise to Huawei Cloud, optimizing cutover strategies to achieve a
-                <strong>
-                  < 5-minute maintenance window</strong>.
-              </li>
+              <li>Orchestrated cross-cloud migrations (Alibaba to AWS, AWS to Huawei Cloud) for microservices
+                workloads and public sector streaming services.</li>
+              <li>Migrated <strong>50+ servers</strong> from on-premise to Huawei Cloud for a major mining company.</li>
               <li>Solved critical compatibility challenges between cloud providers and implemented cross-region
                 architectures for data sovereignty compliance.</li>
             </ul>
@@ -138,6 +139,9 @@
               <li>Designed a multi-layer DR strategy covering Cross-AZ, Cross-Region, and Hybrid environments.</li>
               <li>Configured automated failover testing drills to validate RTO/RPO targets, ensuring 99.99% business
                 continuity availability during outages.</li>
+              <li>Implemented disaster recovery for a major university's web-based repository application, replicating
+                VMware on-premises workloads to Huawei Cloud using OnePro HyperBDR with a target RTO of 15 minutes and
+                RPO of 10 minutes.</li>
             </ul>
           </div>
 
@@ -159,6 +163,25 @@
               <li>Deployed a best-practice Landing Zone for multi-account governance.</li>
               <li>Implemented Service Control Policies (SCPs) to force security baselines (e.g., blocking public S3
                 access, restricting regions) at the root level without hindering developer velocity.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Banking Customer Support Infrastructure Deployment</h3>
+            <p><strong>Technologies:</strong> AWS Network Firewall, GuardDuty, Security Hub, AWS Config, AWS WAF, EC2,
+              ELB, CloudWatch, Terraform</p>
+            <ul>
+              <li>Delivered AWS infrastructure for a customer support application used by one of the largest banks in
+                Indonesia, migrated from an on-premises Proxmox-based environment to meet compliance requirements.</li>
+              <li>Implemented layered security with AWS Network Firewall, AWS WAF, GuardDuty, Security Hub, and AWS
+                Config to provide inline protection, deep packet inspection, encrypted traffic inspection, and
+                centralized monitoring.</li>
+              <li>Integrated security telemetry from multiple AWS services into a centralized SIEM for monitoring, audit,
+                and reporting to satisfy IPS/IDS compliance requirements.</li>
+              <li>Established a controlled change management process for IPS/IDS and firewall rule updates, including
+                centralized log integration and recurring reporting.</li>
+              <li>Completed the project on schedule despite a tight delivery timeline through daily sync-up sessions and
+                parallel execution of implementation, validation, and security review activities.</li>
             </ul>
           </div>
         </section>
