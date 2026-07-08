@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rizki Prasetya — Resume (Short)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <img src="profile-photo.jpg" alt="Rizki Prasetya" class="avatar" />
+      <div class="title">
+        <h1>Rizki Prasetya</h1>
+        <p class="role">IT Infrastructure | Cloud Architect & Cloud Infrastructure Engineer</p>
+        <div class="contact">
+          <span>Jakarta, Indonesia</span>
+          <span>•</span>
+          <a href="mailto:rizkiprasetyapras@gmail.com">rizkiprasetyapras@gmail.com</a>
+          <span>•</span>
+          <a href="tel:+628****8953">+62 859 7256 8953</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/rizkiprasetya18/" target="_blank"
+            rel="noreferrer">linkedin.com/in/rizkiprasetya18/</a>
+          <span>•</span>
+          <a href="https://github.com/rizkiprass" target="_blank" rel="noreferrer">github.com/rizkiprass</a>
+          <span>•</span>
+          <a href="https://medium.com/@rizkiprass" target="_blank" rel="noreferrer">medium.com/@rizkiprass</a>
+        </div>
+      </div>
+      <div class="toolbar">
+        <button class="btn" onclick="window.print()">Print / Save PDF</button>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- MAIN COLUMN -->
+      <main>
+        <!-- RINGKASAN -->
+        <section class="summary">
+          <h2>Professional Summary</h2>
+          <p>Cloud Infrastructure Engineer with 5+ years of experience across AWS and multi-cloud environments. Skilled
+            in Linux administration (Ubuntu, RHEL, CentOS), infrastructure automation with Terraform, and network
+            troubleshooting (VPC, VPN, Transit Gateway). Proven track record in migrating 50+ critical servers,
+            designing secure architectures, and delivering technical presentations to clients.</p>
+        </section>
+
+        <!-- PENGALAMAN KERJA -->
+        <section class="experience">
+          <h2>Work Experience</h2>
+
+          <div class="job">
+            <div class="job-header">
+              <h3>Cloud Architect</h3>
+              <span class="company">ICS Compute</span>
+              <span class="period">Feb 2025 - Present</span>
+            </div>
+            <ul>
+              <li><strong>Infrastructure Troubleshooting:</strong> Diagnose complex network issues across AWS — VPC
+                connectivity, Transit Gateway routing, VPN tunnels — ensuring high availability for enterprise workloads.
+              </li>
+              <li><strong>Enterprise Architecture & Governance:</strong> Design high-availability cloud architectures
+                with centralised Landing Zones for multi-account management and governance.</li>
+              <li><strong>Client Consultation:</strong> Lead technical discussions, gather requirements, present
+                architecture designs (draw.io), deliver POC reports, and create detailed technical documentation.</li>
+              <li><strong>Linux Administration:</strong> Managing Linux servers (Ubuntu, RHEL, CentOS) — disk partition,
+                NFS configuration, package management, mounting filesystems, adding and resizing disks.</li>
+              <li><strong>Security Hardening:</strong> Strengthened security posture with SCPs, AWS WAF, and centralised
+                traffic inspection, neutralising active threats including MaliciousIPCaller and SSH brute-force attacks.
+              </li>
+              <li><strong>Cost Optimisation:</strong> Enforced cost-saving strategies — Savings Plans, rightsizing,
+                Reserved Instances — driving a 20–30% reduction in monthly cloud spend.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <h3>Cloud Engineer</h3>
+              <span class="company">ICS Compute</span>
+              <span class="period">Aug 2021 - Feb 2025</span>
+            </div>
+            <ul>
+              <li><strong>Critical Systems Migration:</strong> Executed cross-region migration of 70+ critical SAP
+                applications for a major Indonesian hospital, and 50+ SAP servers for a leading retail telecom company.
+              </li>
+              <li><strong>Infrastructure Automation:</strong> Automated infrastructure provisioning using Terraform for
+                repeatable, consistent environment builds.</li>
+              <li><strong>On-Premise to Cloud:</strong> Migrated 50+ servers (Linux and Windows) from on-premise to
+                Huawei Cloud for one of Indonesia's largest mining companies.</li>
+              <li><strong>Network Troubleshooting:</strong> Resolved complex networking issues including Transit Gateway
+                routing, VPN connectivity, and VPC peering during cross-region and cross-cloud migrations.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- PROYEK UTAMA -->
+        <section class="projects">
+          <h2>Key Projects</h2>
+
+          <div class="project">
+            <h3>Multi-Cloud & On-Premise to Cloud Migration</h3>
+            <p><strong>Technologies:</strong> AWS, Huawei Cloud, Terraform, Linux (Ubuntu, RHEL, CentOS)</p>
+            <ul>
+              <li>Orchestrated cross-cloud migrations — Alibaba to AWS, AWS to Huawei Cloud — for microservices and
+                public-sector streaming services.</li>
+              <li>Migrated 50+ servers from on-premise to Huawei Cloud, handling Linux OS compatibility.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Banking Customer Support Infrastructure</h3>
+            <p><strong>Technologies:</strong> AWS Network Firewall, GuardDuty, Security Hub, AWS WAF, EC2, ELB,
+              CloudWatch, Terraform</p>
+            <ul>
+              <li>Delivered AWS infrastructure for one of Indonesia's largest banks, migrating from on-premises Proxmox
+                to meet stringent compliance requirements.</li>
+              <li>Implemented layered security with Network Firewall, WAF, GuardDuty, Security Hub, and AWS Config for
+                IPS/IDS compliance.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>SAP BW Cross-Account Migration</h3>
+            <p><strong>Technologies:</strong> Amazon EC2, Amazon S3, Amazon EFS, Terraform</p>
+            <ul>
+              <li>Migrated SAP BW application across AWS accounts spanning Production, Development, and QAS across 7
+                servers for a major retail telecom company.</li>
+              <li>Structured migration runbook with pre-migration preparation and cutover phases to minimise downtime.
+              </li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Enterprise Disaster Recovery & Landing Zone</h3>
+            <p><strong>Technologies:</strong> AWS DRS, AWS Organizations, SCP, Control Tower, CloudFormation</p>
+            <ul>
+              <li>Designed multi-layered DR strategies across Cross-AZ, Cross-Region, and Hybrid environments with
+                automated failover testing.</li>
+              <li>Deployed best-practice Landing Zone with SCPs to enforce consistent governance across multiple AWS
+                accounts.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- PENDIDIKAN -->
+        <section class="education">
+          <h2>Education</h2>
+
+          <div class="degree">
+            <h3>Bachelor of Telecommunications Engineering</h3>
+            <span class="school">Telkom University</span>
+            <span class="period">2015 - 2020</span>
+          </div>
+        </section>
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside>
+        <!-- KEAHLIAN TEKNIS -->
+        <section class="skills">
+          <h2>Technical Skills</h2>
+
+          <div class="skill-category">
+            <h3>Cloud Platforms</h3>
+            <ul>
+              <li>Amazon Web Services (AWS)</li>
+              <li>Huawei Cloud</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Infrastructure as Code</h3>
+            <ul>
+              <li>Terraform</li>
+              <li>CloudFormation</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Container & Serverless</h3>
+            <ul>
+              <li>Docker</li>
+              <li>AWS Lambda</li>
+              <li>API Gateway</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Monitoring</h3>
+            <ul>
+              <li>Amazon CloudWatch</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Linux & Networking</h3>
+            <ul>
+              <li>Ubuntu / RHEL / CentOS</li>
+              <li>VPC, VPN, Transit Gateway</li>
+              <li>Direct Connect</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Security & Compliance</h3>
+            <ul>
+              <li>AWS GuardDuty, Security Hub</li>
+              <li>AWS Network Firewall, WAF</li>
+              <li>Service Control Policies (SCPs)</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Programming & Scripting</h3>
+            <ul>
+              <li>Bash/Shell</li>
+              <li>YAML/JSON</li>
+              <li>HashiCorp Configuration Language (HCL)</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backup & DR</h3>
+            <ul>
+              <li>Veeam Backup</li>
+              <li>OnePro HyperBDR</li>
+              <li>AWS DRS</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Architecture & Documentation</h3>
+            <ul>
+              <li>draw.io</li>
+              <li>Technical Runbooks</li>
+              <li>Architecture Diagrams</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- SERTIFIKASI -->
+        <section class="certifications">
+          <h2>Certifications</h2>
+          <ul>
+            <li><strong>AWS Certified Solutions Architect - Professional</strong> (2024)</li>
+            <li><strong>Microsoft Certified: Azure Fundamentals</strong> (2023)</li>
+          </ul>
+        </section>
+
+        <!-- BAHASA -->
+        <section class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li><strong>Indonesian:</strong> Native</li>
+            <li><strong>English:</strong> Fluent</li>
+          </ul>
+        </section>
+
+      </aside>
+    </div>
+  </div>
+</body>
+
+</html>
