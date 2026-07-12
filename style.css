@@ -32,11 +32,7 @@ header {
 }
 
 .avatar {
-  width: 150px;
-  height: 180px;
-  border-radius: 0;
-  object-fit: cover;
-  border: 3px solid #e2e8f0
+  display: none;
 }
 
 .title {
@@ -91,15 +87,57 @@ h1 {
 /* Layout */
 .grid {
   display: grid;
-  grid-template-columns: 2.1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 28px;
   margin-top: 24px
+}
+
+/* Reorder: put sidebar (aside) at bottom */
+main {
+  order: 1;
+}
+
+aside {
+  order: 2;
+}
+
+/* Skills Section - 2-Column Grid */
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.skill-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-category h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-category ul {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.skill-category li {
+  margin: 4px 0;
+  font-size: 14px;
 }
 
 /* Mobile Responsive */
 @media (max-width:900px) {
   .grid {
     grid-template-columns: 1fr
+  }
+  
+  .skills {
+    grid-template-columns: 1fr;
   }
 
   .page {
